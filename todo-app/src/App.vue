@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/todo">To Do App</router-link>
     </nav>
     <router-view/>
   </div>
@@ -22,11 +21,19 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #0112a9;
+    font-size: 20px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #000000;
+      font-size: 50px;
     }
   }
 }
 </style>
+<script>
+import '@/assets/tailwind.css';
+export default ({
+
+})
+</script>
