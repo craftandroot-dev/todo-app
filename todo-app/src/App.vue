@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/todo">To Do App</router-link>
     </nav>
+    <homepage/>
     <router-view/>
   </div>
 </template>
@@ -32,8 +33,7 @@ nav {
 }
 </style>
 <script>
-import '@/assets/tailwind.css';
 export default ({
-
+  name: 'App',
 })
 </script>

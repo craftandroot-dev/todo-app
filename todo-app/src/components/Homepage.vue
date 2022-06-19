@@ -9,12 +9,8 @@
 </template>
 
 <script>
-import "@/assets/tailwind.css";
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
+  name: "Home",
 };
 </script>
 
