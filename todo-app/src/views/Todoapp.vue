@@ -40,8 +40,10 @@
           </td>
           <td v-else>
             <input
+            class="confirmEdit h-7 border-4 border-l-blue-700 focus:outline-none focus:shadow-outline w-48 text-black"
               type="text"
               v-model="editedText"
+              placeholder="Edit task"
               @keyup.enter="confirmEditedTask(todo, index)"
             />
           </td>
@@ -114,6 +116,7 @@ export default {
       editedText: "",
     };
   },
+  
   mounted() {
     let newTodos = localStorage.getItem("todo");
     if (newTodos.length) {
