@@ -3,8 +3,7 @@
     <nav>
       <router-link to="/todo">To Do App</router-link>
     </nav>
-    <homepage/>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -33,7 +32,7 @@ nav {
 }
 </style>
 <script>
-export default ({
-  name: 'App',
-})
+export default {
+  name: "App",
+};
 </script>
